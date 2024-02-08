@@ -9,4 +9,11 @@ public class HomePage extends PageBase {
     }
     By resisterTab = By.className("ico-register");
     public void ClickOnRegisterTab (){ClickOnElement(resisterTab);}
+    By loginButton =By.className("ico-login");
+
+
+
+    public void clickOnLoginButton (){
+        ClickOnElement(loginButton);
+    }
 }

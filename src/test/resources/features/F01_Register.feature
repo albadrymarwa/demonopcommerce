@@ -4,6 +4,7 @@ Feature: User Registration
     When user clicks on register button
     Then user is redirected to register page
     When users enters his first name
+And select gender
     And enters his last name
     And select the day of  birth date
     And select the month of  birth date

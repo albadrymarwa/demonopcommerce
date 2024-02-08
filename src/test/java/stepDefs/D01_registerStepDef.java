@@ -1,10 +1,12 @@
 package stepDefs;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.Pages.HomePage;
 import org.example.Pages.P01_register;
+import org.example.Pages.RegisterResultPage;
 import org.testng.Assert;
 
 import static base.TestBase.driver;
@@ -12,9 +14,10 @@ import static base.TestBase.driver;
 public class D01_registerStepDef {
     HomePage homePageObject =new HomePage(driver);
     P01_register p01_registerObject =new P01_register(driver);
+    RegisterResultPage registerResultPageObject =new RegisterResultPage(driver);
     @Given("user is in home page")
     public void user_is_in_home_page() {
-        Assert.assertEquals(driver.getCurrentUrl(),"https://demo.nopcommerce.com/");
+       Assert.assertEquals(driver.getCurrentUrl(),"https://demo.nopcommerce.com/");
     }
     @When("user clicks on register button")
     public void user_clicks_on_register_button() {
@@ -74,8 +77,14 @@ homePageObject.ClickOnRegisterTab();
 
     @Then("user is redricted to register result page")
     public void user_is_redricted_to_register_result_page() {
-
+Assert.assertEquals(registerResultPageObject.registrationCompletedText(),"Your registration completed");
     }
+
+
+    @And("select gender")
+    public void selectGender() {p01_registerObject.selectGender();
+    }
+
 
 
 }

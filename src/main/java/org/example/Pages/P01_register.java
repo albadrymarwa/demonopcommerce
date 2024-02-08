@@ -15,6 +15,7 @@ By emailField = By.id("Email");
 By passwordField = By.id("Password");
 By confirmPasswordField = By.id("ConfirmPassword");
 By registerdButton = By.id("register-button");
+By gender =By.id("gender-female");
     public P01_register(WebDriver driver) {
         super(driver);
     }
@@ -40,4 +41,6 @@ By registerdButton = By.id("register-button");
         EnterText(confirmPasswordField, "P@ssw0rd");
     }
 public void clickOnRegisterButton (){ClickOnElement(registerdButton);}
+    public void selectGender (){ClickOnElement(gender);}
 }
+
