@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d5ad420-cae4-4ee4-9d65-3d2002ee4a2e" name="Changes" comment="cccc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/P02_login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/P03_homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/D02_loginStepDefff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/D03_currenciesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/D06_homeslidersStepdeff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ F02_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/F03_currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/F06_homeSliderss.feature" afterDir="false" />
+    <list default="true" id="1d5ad420-cae4-4ee4-9d65-3d2002ee4a2e" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/D07_followUsStepDeff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ F07_followUs.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pages/P01_register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/P01_register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pages/RegisterResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/RegisterResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pages/P03_homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Pages/P03_homePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/D01_registerStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/D01_registerStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/F01_Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/D02_loginStepDefff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/D02_loginStepDefff.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hardassertion" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -66,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Cucumber Java.Feature:  F02_Login.executor": "Run",
-    "Cucumber Java.Feature: F06_homeSliders.executor": "Run",
-    "Cucumber Java.Feature: F06_homeSliderss.executor": "Run",
-    "Cucumber Java.Scenario: First slider is clickable on home page.executor": "Run",
-    "Cucumber Java.Scenario: Verify that Euro currency symbol is displayed on products after selecting Euro currency.executor": "Run",
-    "Cucumber Java.Scenario: guest user could register with valid data successfully.executor": "Run",
-    "Cucumber Java.Scenario: second slider is clicable on home page.executor": "Run",
-    "Cucumber Java.Scenario: user could login with invalid email and password.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TestBase.executor": "Run",
-    "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "hardassertion",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature:  F02_Login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: F06_homeSliders.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: F06_homeSliderss.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: First slider is clickable on home page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that Euro currency symbol is displayed on products after selecting Euro currency.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: guest user could register with valid data successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: second slider is clicable on home page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: user could login with invalid email and password.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestBase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="Feature: F06_homeSliders" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -192,6 +186,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -204,6 +199,23 @@
       <option name="presentableId" value="Default" />
       <updated>1706964278230</updated>
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <option name="closed" value="true" />
+      <created>1707425497297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707425497297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final">
+      <option name="closed" value="true" />
+      <created>1707425540089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707425540089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

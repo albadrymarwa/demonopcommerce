@@ -22,6 +22,11 @@ WebDriverWait wait ;
     By productPrices = By.cssSelector("div.prices>span.actual-price");
    // By firstSlider = By.className("nivo-imageLink");
 
+    By facbookLogo = By.cssSelector("li.facebook>a");
+    By twitterLogo = By.cssSelector("li.twitter>a");
+    By rsslogo = By.cssSelector("li.rss>a");
+    By youtubelogo =By.cssSelector("li.youtube>a");
+
     public void selectEuroCurruncy (){
         Select currencySelect = new Select(driver.findElement(currencyDropDown));
         currencySelect.selectByVisibleText("Euro");
@@ -52,4 +57,15 @@ WebDriverWait wait ;
     public void waitForURLToContain(String expectedURL) {
         wait.until(ExpectedConditions.urlContains(expectedURL));
     }
+
+public void openFacebookLInk (){ClickOnElement(facbookLogo);}
+    public void openTwitterLinl (){ClickOnElement(twitterLogo);}
+    public void openRssLink (){ClickOnElement(rsslogo);}
+    public void openYoutubeLink (){ClickOnElement(youtubelogo);}
+public String SwitchToNewTabAndReturnURL (){
+        for (String handle : driver.getWindowHandles()){
+            driver.switchTo().window(handle);
+        }
+        return driver.getCurrentUrl();
+}
 }

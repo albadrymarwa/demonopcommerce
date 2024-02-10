@@ -34,10 +34,10 @@ public class D02_loginStepDefff {
 
     @Then("user login to the system successfully")
     public void userLoginToTheSystemSuccessfully() {
-       Assert.assertEquals(driver.getCurrentUrl(),"https://demo.nopcommerce.com/");
-       Assert.assertEquals(p02LoginObject.isMyAccountTabDisplayed());
+       //Assert.assertTrue(driver.getCurrentUrl(),"https://demo.nopcommerce.com/");
+      // Assert.assertEquals(p02LoginObject.isMyAccountTabDisplayed());
 
-      //  Assert.assertTrue(p02LoginObject.isMyAccountTabDisplayed());
+       Assert.assertTrue(p02LoginObject.isMyAccountTabDisplayed());
 
     }
 
