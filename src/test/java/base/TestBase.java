@@ -15,5 +15,8 @@ public class TestBase extends AbstractTestNGCucumberTests
         driver.navigate().to("https://demo.nopcommerce.com/");
         driver.manage().window().maximize();
     }
-
+    @AfterMethod
+    public void closeBrowser(){
+        driver.quit();
+    }
 }
